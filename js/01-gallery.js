@@ -1,5 +1,4 @@
 import { galleryItems } from './gallery-items.js';
-// Change code below this line
 
 const container = document.querySelector('.gallery');
 
@@ -54,5 +53,3 @@ function onEscape({ code }) {
     this.close();
   }
 }
-
-console.log(galleryItems);
